@@ -1,0 +1,29 @@
+RewriteEngine on
+
+RewriteRule ^pengguna\.html$ template.php?module=pengguna&id=$1 [L]
+RewriteRule ^form_pengguna\.html$ template.php?module=form_pengguna&id=$1 [L]
+RewriteRule ^input_pengguna\.html$ template.php?module=input_pengguna&id=$1 [L]
+RewriteRule ^input\.php$ template.php?module=input&id=$1 [L]
+RewriteRule ^edit_pengguna-(.*)\.html$ template.php?module=edit_pengguna&id=$1 [L]
+RewriteRule ^update_pengguna\.html$ template.php?module=update_pengguna&id=$1 [L]
+RewriteRule ^hapus_pengguna-(.*)\.html$ template.php?module=hapus_pengguna&id=$1 [L]
+
+RewriteRule ^siswa\.html$ template.php?module=siswa&id=$1 [L]
+RewriteRule ^form_siswa\.html$ template.php?module=form_siswa&id=$1 [L]
+RewriteRule ^input_siswa\.html$ template.php?module=input_siswa&id=$1 [L]
+RewriteRule ^input\.php$ template.php?module=input&id=$1 [L]
+RewriteRule ^edit_siswa-(.*)\.html$ template.php?module=edit_siswa&id=$1 [L]
+RewriteRule ^update_siswa\.html$ template.php?module=update_siswa&id=$1 [L]
+RewriteRule ^hapus_siswa-(.*)\.html$ template.php?module=hapus_siswa&id=$1 [L]
+
+
+RewriteRule ^tabungan\.html$ template.php?module=tabungan&id=$1 [L]
+RewriteRule ^penarikan\.html$ template.php?module=penarikan&id=$1 [L]
+RewriteRule ^input_penarikan\.html$ template.php?module=input_penarikan&id=$1 [L]
+RewriteRule ^setoran\.html$ template.php?module=setoran&id=$1 [L]
+RewriteRule ^input_setoran\.html$ template.php?module=input_setoran&id=$1 [L]
+RewriteRule ^detail-(.*)\.html$ template.php?module=detail&id=$1 [L]
+RewriteRule ^cetak-(.*)\.html$ template.php?module=cetak&id=$1 [L]
+
+RewriteRule ^beranda\.html$ template.php?module=beranda&id=$1 [L]
+Options All -Indexes
